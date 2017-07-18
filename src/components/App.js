@@ -6,8 +6,10 @@ import Counter from './Counter';
 
 const App = ({ name }) => {
   return (
+    <div>
     <h1>Hello, {name}!</h1>
     <Counter />
+    </div>
   );
 };
 
